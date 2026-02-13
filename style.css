@@ -154,6 +154,14 @@ nav ul.topnav li.dropdownIcon a:hover {
     overflow: hidden;
 }
 
+/* ############################ SECTION-2 ##################*/
+#section-2 {
+    height: 100vh;
+    background-image: linear-gradient(var(--bg-color-g2), var(--bg-color-g1));
+    padding: 50px;
+    overflow: hidden;
+}
+
 /* ############################ CONTAINER ROW ##################*/
 .container .row {
     display: flex;
@@ -314,7 +322,7 @@ nav ul.topnav li.dropdownIcon a:hover {
 }
 
 /* ############################ NAVBAR MOBILE VIEW #################### */
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 1024px) {
     nav ul.topnav li:not(:nth-child(1)) {
         display: none;
     }
