@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Praise&display=swap');
+
+body{
+    background-color: #1a237e;
+}
+
+.brand-logo {
+    margin-left: 20px;
+    font-family: "Praise", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.custom-container {
+    padding: 20px;
+}

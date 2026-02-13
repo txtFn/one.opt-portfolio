@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
     <!-- ############## STYLE ################ -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
 
     <!-- ############## GOOGLE FONTS ############### -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,35 +17,47 @@
         href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Outfit&family=Satisfy&family=Oswald&display=swap"
         rel="stylesheet">
 
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
     <!-- ############# SCRIPTS ############### -->
     <script defer src="main.js"></script>
 </head>
 
 <body>
-    <nav>
-        <ul class="topnav" id="navbarClick">
-            <li class="logo" onclick="location.href='./index.html'">
-                <div>
-                    <div class="eye">
-                        <div class="ball">
-                            <div class="achi">achi</div>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <p>One.opt</p>
-                </div>
-            </li>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./about.html">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
-        </ul>
-    </nav>
+    <!-- NAVBAR -->
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper indigo darken-4">
+                <a href="./index.html" class="brand-logo left">
+                    One <span class="indigo-text text-accent-1">Opt</span></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
-    <div class="container" id="section-2">
-        <h2>About</h2>
+    <div class="custom-container">
+        <div class="row">
+            <!-- ELEMENT 1 -->
+            <div class="col s12 m6 l6 center">
+                <img src="./img/jani.png" alt="" width="200px" height="200px">
+            </div>
+            <div class="col s12 m6 l6 white-text">
+                <h2>Hi There</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Numquam adipisci, illo sequi architecto nobis temporibus
+                    repellat eveniet earum voluptatem asperiores saepe accusantium
+                    sint facilis dolore porro velit officia suscipit doloremque.</p>
+            </div>
+        </div>
     </div>
 </body>
 

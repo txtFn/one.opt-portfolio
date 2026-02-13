@@ -141,7 +141,7 @@ nav ul.topnav li.dropdownIcon a:hover {
 }
 
 /* ######################### CONTAINER ####################### */
-.container {
+.custom-container {
     width: 100%;
     margin: auto;
 }
@@ -154,108 +154,52 @@ nav ul.topnav li.dropdownIcon a:hover {
     overflow: hidden;
 }
 
-/* ############################ SECTION-2 ##################*/
-#section-2 {
-    height: 100vh;
-    background-image: linear-gradient(var(--bg-color-g2), var(--bg-color-g1));
-    padding: 50px;
-    overflow: hidden;
-}
-
 /* ############################ CONTAINER ROW ##################*/
-.container .row {
+.custom-container .row {
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
     align-items: start;
 }
 
-.container .row::after {
+.custom-container .row::after {
     display: table;
     clear: both;
     content: "";
 }
 
-.col-1 {
-    width: 8.33%;
-}
-
-.col-2 {
-    width: 16.66%;
-}
-
-.col-3 {
-    width: 25%;
-}
-
-.col-4 {
-    width: 33.33%;
-}
-
-.col-5 {
-    width: 41.66%;
-}
-
-.col-6 {
-    width: 50%;
-}
-
-.col-7 {
-    width: 58.33%;
-}
-
-.col-8 {
-    width: 66.66%;
-}
-
-.col-9 {
-    width: 75%;
-}
-
-.col-10 {
-    width: 83.33%;
-}
-
-.col-11 {
-    width: 91.66%;
-}
-
-.col-12 {
-    width: 100%;
-}
-
 /* ########################### CONTAINER ROW ####################### */
-.container .row .left {
+.custom-container .row .left {
     width: 50%;
     line-height: 2;
     margin: 0;
     padding: 0 150px 0 0;
 }
 
-.container .row .left h2 {
+.custom-container .row .left h2 {
     margin: 0;
     color: var(--white-color);
     font-size: 50px;
 }
 
-.container .row .left h1 {
+.custom-container .row .left h1 {
     color: var(--white-color);
     font-size: 70px;
     margin: 10px 0 0 0;
 }
 
-.container .row .left h1 span {
+.custom-container .row .left h1 span {
     color: var(--secondary-color);
 }
 
-.container .row .left h4 {
+.custom-container .row .left h4 {
     color: var(--secondary-color);
     text-transform: uppercase;
     font-size: 28px;
     margin: 5px 0 0 0;
 }
 
-.container .row .left p {
+.custom-container .row .left p {
     margin: 20px 0px 40px 0;
     color: var(--white-color);
     text-align: justify;
@@ -263,22 +207,22 @@ nav ul.topnav li.dropdownIcon a:hover {
     font-weight: light;
 }
 
-.container .row .left .myLinks i {
+.custom-container .row .left .myLinks i {
     margin-right: 20px;
     color: var(--white-color);
     font-size: 40px;
 }
 
-.container .row .left .myLinks i:hover {
+.custom-container .row .left .myLinks i:hover {
     color: var(--secondary-color);
 }
 
-.container .row .nextPage {
+.custom-container .row .nextPage {
     padding-left: 17%;
     padding-top: 12%;
 }
 
-.container .row .nextPage button {
+.custom-container .row .nextPage button {
     margin-top: 30%;
     background-color: transparent;
     border: none;
@@ -286,15 +230,15 @@ nav ul.topnav li.dropdownIcon a:hover {
     font-size: 70px;
 }
 
-.container .row .nextPage button:hover {
+.custom-container .row .nextPage button:hover {
     color: var(--secondary-color);
 }
 
-.container .row .myPic {
+.custom-container .row .myPic {
     position: relative;
 }
 
-.container .row .circle {
+.custom-container .row .circle {
     z-index: 1;
     position: absolute;
     width: 500px;
@@ -305,7 +249,7 @@ nav ul.topnav li.dropdownIcon a:hover {
     border-radius: 50%;
 }
 
-.container .row .right {
+.custom-container .row .right {
     z-index: 2;
     width: 600px;
     height: 600px;
@@ -322,7 +266,7 @@ nav ul.topnav li.dropdownIcon a:hover {
 }
 
 /* ############################ NAVBAR MOBILE VIEW #################### */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
     nav ul.topnav li:not(:nth-child(1)) {
         display: none;
     }
@@ -368,14 +312,14 @@ nav ul.topnav li.dropdownIcon a:hover {
         overflow: hidden;
     }
 
-    .container .row .left {
+    .custom-container .row .left {
         width: 100%;
         line-height: 2;
         margin: 0;
         padding: 50px 50px 40vh 50px;
     }
 
-    .container .row .myPic {
+    .custom-container .row .myPic {
         display: none;
     }
 }
