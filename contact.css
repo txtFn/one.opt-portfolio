@@ -173,6 +173,7 @@ nav ul.topnav li.dropdownIcon a:hover {
     flex-wrap: wrap;
     justify-content: start;
     align-items: start;
+    gap: 20px;
 }
 
 .custom-container .row::after {
